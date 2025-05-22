@@ -16,7 +16,7 @@
 
 
         <!-- Início do formulário de feedback -->
-        <form>
+        <form id="feedback">
 
             <!-- Campo: Nome do usuário -->
             <label for="nome">Nome:</label>
@@ -36,7 +36,7 @@
 
             <!-- Campo: Linha de transporte -->
             <label for="linha">Qual linha:</label>
-            <input type="number" id="linha" name="number" placeholder="Digite a linha" />
+            <input type="number" id="linha" name="linha" placeholder="Digite a linha" />
 
             <!-- Campo: Horário de uso do transporte -->
             <label for="horario">Qual horário:</label>
@@ -47,21 +47,21 @@
             <input type="date" id="data" name="data" placeholder="Digite o horário" />
 
             <!-- Campo: Avaliação do transporte (sistema de estrelas) -->
-            <label for="nota-transporte">Avaliação do transporte:</label>
-            <div class="nota">
-            <input type="radio" name="avaliacaoTransporte" id="transporte5" value="5">
+            <label for="nota-transporte">Avaliação do transporte (1 a 5 estrelas):</label>
+            <div class="nota" id="avtrasnport">
+            <input type="radio" name="avtrasnport" id="transporte5" value="5">
             <label for="transporte5">★</label>
 
-            <input type="radio" name="avaliacaoTransporte" id="transporte4" value="4">
+            <input type="radio" name="avtrasnport" id="transporte4" value="4">
             <label for="transporte4">★</label>
 
-            <input type="radio" name="avaliacaoTransporte" id="transporte3" value="3">
+            <input type="radio" name="avtrasnport" id="transporte3" value="3">
             <label for="transporte3">★</label>
 
-            <input type="radio" name="avaliacaoTransporte" id="transporte2" value="2">
+            <input type="radio" name="avtrasnport" id="transporte2" value="2">
             <label for="transporte2">★</label>
 
-            <input type="radio" name="avaliacaoTransporte" id="transporte1" value="1">
+            <input type="radio" name="avtrasnport" id="transporte1" value="1">
             <label for="transporte1">★</label>
             </div>
 
@@ -72,20 +72,20 @@
 
             <!-- Campo: Avaliação do site (repetição do campo de estrelas anterior, podendo confundir) -->
             <label for="nota-site">Avalie nosso site (1 a 5 estrelas):</label>
-            <div class="nota">
-            <input type="radio" name="avaliacaoSite" id="site5" value="5">
+            <div class="nota" id="avsite">
+            <input type="radio" name="avsite" id="site5" value="5">
             <label for="site5">★</label>
 
-            <input type="radio" name="avaliacaoSite" id="site4" value="4">
+            <input type="radio" name="avsite" id="site4" value="4">
             <label for="site4">★</label>
 
-            <input type="radio" name="avaliacaoSite" id="site3" value="3">
+            <input type="radio" name="avsite" id="site3" value="3">
             <label for="site3">★</label>
 
-            <input type="radio" name="avaliacaoSite" id="site2" value="2">
+            <input type="radio" name="avsite" id="site2" value="2">
             <label for="site2">★</label>
 
-            <input type="radio" name="avaliacaoSite" id="site1" value="1">
+            <input type="radio" name="avsite" id="site1" value="1">
             <label for="site1">★</label>
             </div>
 
